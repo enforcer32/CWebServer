@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.28)
+
+project(CWebServer
+	VERSION 1.0.0
+	LANGUAGES C
+)
+
+# CONFIGS
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+set(CWS_TARGET_NAME cws)
+
+add_subdirectory(${CWS_TARGET_NAME})
